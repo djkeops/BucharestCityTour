@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Bucharest City Tour</string>
+    <string name="category_sites">Sites</string>
+    <string name="category_museums">Museums</string>
+    <string name="category_entertainment">Fun</string>
+    <string name="category_parks">Parks</string>
+
+    <string name="sites_palace_of_the_parliament">Palace of the Parliament</string>
+    <string name="sites_manuc_s_inn">Manuc\'s Inn</string>
+    <string name="sites_arch_of_triumph">Arch of Triumph</string>
+    <string name="sites_cotroceni_palace">Cotroceni Palace</string>
+    <string name="museums_museum_of_the_romanian_peasant">Museum of the Romanian Peasant</string>
+    <string name="museums_grigore_antipa_national_museum_of_natural_history">Grigore Antipa National Museum of Natural History</string>
+    <string name="museums_national_museum_of_romanian_history">National Museum of Romanian History</string>
+    <string name="entertainment_romanian_athenaeum">Romanian Athenaeum</string>
+    <string name="entertainment_national_theater_ion_luca_caragiale">National Theater Ion Luca Caragiale</string>
+    <string name="entertainment_old_city">Old City</string>
+    <string name="parks_herastrau_park">Herastrau Park</string>
+    <string name="parks_cismigiu_gardens">Cismigiu Gardens</string>
+    <string name="parks_tineretului_park">Tineretului Park</string>
+
+    <string name="description_sites_palace_of_the_parliament">It is the seat of the Parliament of Romania, the largest administrative building in the world and known for its ornate interior composed of 23 sections and three museums.</string>
+    <string name="description_sites_manuc_s_inn">A famous place in the old historical center of Bucharest, build at the beginning of 19th century, by the nobleman Manuc Bei.</string>
+    <string name="description_sites_arch_of_triumph">It is one of the most notable landmarks of the capital and it can be deemed a symbol of Bucharest. The structure of the current Triumphal Arch dates back to 1922 and later in 1938 in its final form, was inaugurated.</string>
+    <string name="description_sites_cotroceni_palace">Constructed from 1888–1893 at the behest of Romania\'s first king, Carol I, Cotroceni Palace has since 1991 been the official residence of the Romanian President. Part of the palace is open to the public, and can be visited on a tour.</string>
+    <string name="description_museums_museum_of_the_romanian_peasant">Art and traditions blend together in a beautiful neo-romanian building that takes you back in a time when all  was pure and simple.</string>
+    <string name="description_museums_grigore_antipa_national_museum_of_natural_history">One of the most precious collections of osteology, zoology, mineralogy, geology, paleontology will enchant your eyes and your mind.</string>
+    <string name="description_museums_national_museum_of_romanian_history">From prehistoric times up to modern times, you will encounter beautiful artifacts with unique stories. Build in an eclectic style, the museum houses also the Romanian Jewl Crown, a replic of Trajan\’s Column and Pietroasele treasure.</string>
+    <string name="description_entertainment_romanian_athenaeum">An place that is waiting  for you with wonderful concerts of classical music.</string>
+    <string name="description_entertainment_national_theater_ion_luca_caragiale">Entertain oneself watching  plays from universal literature.</string>
+    <string name="description_entertainment_old_city">A combination of old and new that is famous for the night life.</string>
+    <string name="description_parks_herastrau_park">A place full of beautiful vegetation, known for it\'s wide variety of trees and shrubs and also for floral cherries from the japanese garden donated by the emperor of Japan.</string>
+    <string name="description_parks_cismigiu_gardens">A beautiful green scenery that houses the oldest public garden in Bucharest.</string>
+    <string name="description_parks_tineretului_park">A perfect place for a ride with your or a rented bike around the lake.</string>
+
+    <string name="address_sites_palace_of_the_parliament">Izvor Street 2–4</string>
+    <string name="address_sites_manuc_s_inn">Franceza Street 62</string>
+    <string name="address_sites_arch_of_triumph">Arcul de Triumf Square</string>
+    <string name="address_sites_cotroceni_palace">Geniului Boulevard 1</string>
+    <string name="address_museums_museum_of_the_romanian_peasant">Kiseleff Road 3</string>
+    <string name="address_museums_grigore_antipa_national_museum_of_natural_history">Kiseleff Road 1</string>
+    <string name="address_museums_national_museum_of_romanian_history">Victoriei Avenue 12</string>
+    <string name="address_entertainment_romanian_athenaeum">Benjamin Franklin Street 1–3</string>
+    <string name="address_entertainment_national_theater_ion_luca_caragiale">Nicolae Bălcescu Boulevard 2</string>
+    <string name="address_entertainment_old_city">Lipscani Street 38</string>
+    <string name="address_parks_herastrau_park">Bucharest</string>
+    <string name="address_parks_cismigiu_gardens">Regina Elisabeta Boulevard</string>
+    <string name="address_parks_tineretului_park">Bucharest</string>
+
+</resources>

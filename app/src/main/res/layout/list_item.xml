@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/m_margin"
+        android:layout_marginStart="@dimen/m_margin"
+        android:layout_marginEnd="@dimen/m_margin"
+        android:layout_marginBottom="@dimen/xs_margin"
+        android:minHeight="@dimen/cardview_min_height"
+        card_view:cardCornerRadius="@dimen/cardview_corner_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/l_padding"
+            android:background="@color/cardBackgroundColor">
+
+            <ImageView
+                android:id="@+id/logo_image"
+                android:layout_width="@dimen/location_logo_size"
+                android:layout_height="@dimen/location_logo_size"
+                android:layout_gravity="center_vertical"
+                tools:src="@drawable/ic_sites_palace_of_the_parliament" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/m_padding">
+
+                <TextView
+                    android:id="@+id/location_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/s_margin"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/location_name_text_size"
+                    android:textStyle="bold"
+                    tools:text="@string/sites_palace_of_the_parliament" />
+
+                <TextView
+                    android:id="@+id/location_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/s_margin"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/location_description_text_size"
+                    tools:text="@string/description_sites_palace_of_the_parliament" />
+
+                <TextView
+                    android:id="@+id/location_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/s_padding"
+                    android:drawableStart="@drawable/ic_location_14dp"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/location_address_text_size"
+                    tools:text="@string/address_sites_palace_of_the_parliament" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
