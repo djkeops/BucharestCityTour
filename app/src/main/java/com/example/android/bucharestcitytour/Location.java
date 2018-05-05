@@ -4,6 +4,20 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 public class Location implements Parcelable {
+    //Used when un-parceling the parcel
+    public static final Creator<Location> CREATOR = new Creator<Location>() {
+        @Override
+        public Location createFromParcel(Parcel in) {
+            return new Location(in);
+        }
+
+        @Override
+        public Location[] newArray(int size) {
+            return new Location[size];
+        }
+    };
+
+    //Declare variables
     private String name;
     private int logoImageResourceId;
     private int imageResourceId;
@@ -12,7 +26,7 @@ public class Location implements Parcelable {
     private double latitude;
     private double longitude;
 
-    //main constructor
+    //Main constructor
     public Location(String name, int logoImageResourceId, int imageResourceId, String description, String address, double latitude, double longitude) {
         this.name = name;
         this.logoImageResourceId = logoImageResourceId;
@@ -23,8 +37,19 @@ public class Location implements Parcelable {
         this.longitude = longitude;
     }
 
-    //getters
-        public String getName() {
+    //Constructor used for parcel
+    public Location(Parcel in) {
+        name = in.readString();
+        logoImageResourceId = in.readInt();
+        imageResourceId = in.readInt();
+        description = in.readString();
+        address = in.readString();
+        latitude = in.readDouble();
+        longitude = in.readDouble();
+    }
+
+    //Getters methods
+    public String getName() {
         return name;
     }
 
@@ -52,31 +77,7 @@ public class Location implements Parcelable {
         return longitude;
     }
 
-    //constructor used for parcel
-    public Location(Parcel in) {
-        name = in.readString();
-        logoImageResourceId = in.readInt();
-        imageResourceId = in.readInt();
-        description = in.readString();
-        address = in.readString();
-        latitude = in.readDouble();
-        longitude = in.readDouble();
-    }
-
-    //used when un-parceling our parcel (creating the object)
-    public static final Creator<Location> CREATOR = new Creator<Location>() {
-        @Override
-        public Location createFromParcel(Parcel in) {
-            return new Location(in);
-        }
-
-        @Override
-        public Location[] newArray(int size) {
-            return new Location[size];
-        }
-    };
-
-    //return hashcode of object
+    //Return hashcode of object
     @Override
     public int describeContents() {
         return hashCode();

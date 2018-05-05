@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 public class ParksFragment extends Fragment {
 
-    public ParksFragment(){
+    public ParksFragment() {
         // Required empty public constructor
     }
 
@@ -29,22 +29,13 @@ public class ParksFragment extends Fragment {
         locations.add(new Location(getString(R.string.parks_cismigiu_gardens), R.drawable.ic_parks_cismigiu_gardens, R.drawable.ic_parks_cismigiu_gardens, getString(R.string.description_parks_cismigiu_gardens), getString(R.string.address_parks_cismigiu_gardens), 44.43698, 26.090987));
         locations.add(new Location(getString(R.string.parks_tineretului_park), R.drawable.ic_parks_tineretului_park, R.drawable.ic_parks_tineretului_park, getString(R.string.description_parks_tineretului_park), getString(R.string.address_parks_tineretului_park), 44.400503, 26.108441));
 
-        // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
-        // adapter knows how to create layouts for each item in the list, using the
-        // simple_list_item_1.xml layout resource defined in the Android framework.
-        // This list item layout contains a single {@link TextView}, which the adapter will set to
-        // display a single word.
+        // Create an LocationAdapter whose data source is locations ArrayList.
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 
-        // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
-        // There should be a {@link ListView} with the view ID called list, which is declared in the
-        // word_list.xml file.
+        // Find the ListView object in the view hierarchy of the layout.
         final ListView listView = (ListView) rootView.findViewById(R.id.list);
 
-        // Make the {@link ListView} use the {@link ArrayAdapter} we created above, so that the
-        // {@link ListView} will display list items for each word in the list of words.
-        // Do this by calling the setAdapter method on the {@link ListView} object and pass in
-        // 1 argument, which is the {@link ArrayAdapter} with the variable name itemsAdapter.
+        // Make the ListView to use the LocationAdapter
         listView.setAdapter(adapter);
 
         return rootView;

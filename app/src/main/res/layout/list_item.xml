@@ -9,10 +9,10 @@
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/m_margin"
-        android:layout_marginStart="@dimen/m_margin"
-        android:layout_marginEnd="@dimen/m_margin"
         android:layout_marginBottom="@dimen/xs_margin"
+        android:layout_marginEnd="@dimen/m_margin"
+        android:layout_marginStart="@dimen/m_margin"
+        android:layout_marginTop="@dimen/m_margin"
         android:minHeight="@dimen/cardview_min_height"
         card_view:cardCornerRadius="@dimen/cardview_corner_radius">
 
@@ -20,8 +20,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center_vertical"
-            android:padding="@dimen/l_padding"
-            android:background="@color/cardBackgroundColor">
+            android:background="@color/cardBackgroundColor"
+            android:padding="@dimen/l_padding">
 
             <ImageView
                 android:id="@+id/logo_image"
