@@ -12,4 +12,8 @@
     <dimen name="xs_margin">2dp</dimen>
     <dimen name="cardview_min_height">120dp</dimen>
     <dimen name="cardview_corner_radius">5dp</dimen>
+    <dimen name="xl_margin">20dp</dimen>
+    <dimen name="l_margin">16dp</dimen>
+    <dimen name="details_map_height">400dp</dimen>
+    <dimen name="details_app_bar_height">180dp</dimen>
 </resources>
