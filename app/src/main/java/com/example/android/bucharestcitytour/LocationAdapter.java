@@ -64,8 +64,8 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         // Get the location description from the current Location object and set this text on the location_description TextView
         if (currentLocation != null) {
             // Get first 120 characters from the description
-            String shortDescription = String.format("%.120s", currentLocation.getDescription()) + "...";
-            locationDescriptionTextView.setText(shortDescription);
+            // String shortDescription = String.format("%.120s", currentLocation.getDescription()) + "...";
+            locationDescriptionTextView.setText(currentLocation.getDescription());
         }
 
         // Find the TextView in the list_item.xml layout with the ID location_address

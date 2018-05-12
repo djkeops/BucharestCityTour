@@ -54,6 +54,8 @@
                     android:layout_marginBottom="@dimen/s_margin"
                     android:textColor="@color/textColor"
                     android:textSize="@dimen/location_description_text_size"
+                    android:ellipsize="end"
+                    android:maxLines="4"
                     tools:text="@string/description_sites_palace_of_the_parliament" />
 
                 <TextView

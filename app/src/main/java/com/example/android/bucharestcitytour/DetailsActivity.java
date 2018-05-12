@@ -18,6 +18,8 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+//TODO: Sa modifica fontul din titlu pentru ca este prea mare
+//TODO: Sa adaug si limba romana
 public class DetailsActivity extends AppCompatActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
